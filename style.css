@@ -18,7 +18,8 @@ body {
   text-align: center;
   color: #023047;
   background: #8ecae6;
-  border-bottom: 5px solid #219ebc;
+  border-bottom: 6px solid #219ebc;
+  border-radius: 10px;
 }
 
 .avatar {
@@ -31,13 +32,31 @@ body {
   box-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }
 
-.my-info {
+.info {
   padding: 3px;
   margin-bottom: 5px;
 }
 
-.my-info:hover {
+.info:hover {
   color: #fefae0;
   background: #023047;
   border-radius: 7px;
+}
+
+.btn-github {
+  padding: 5px 22px;
+  border-radius: 7px;
+  border-style: none;
+  font-family: "Poppins";
+  font-weight: 300px;
+}
+
+.btn-github a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-github:hover {
+  background-color: #023047;
+  color: #fefae0;
 }
